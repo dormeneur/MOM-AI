@@ -1,0 +1,751 @@
+sentence,label,speaker,has_modal,has_name,is_imperative
+The slides schedule ends on Tuesday.,deadline_mention,SPEAKER_00,0,0,0
+Let's talk about the design just approach.,topic,SPEAKER_03,0,0,0
+They always finish the architecture late.,general,SPEAKER_00,0,0,0
+The decision probably is to update the plan.,decision,SPEAKER_00,0,0,0
+"David, draft definitely the wireframes today.",action_item,SPEAKER_04,0,0,0
+This must be ready by Thursday.,deadline_mention,SPEAKER_02,0,0,0
+I usually review reports actually on Fridays.,general,SPEAKER_02,0,0,0
+Can David verify the code?,deadline_mention,SPEAKER_02,0,0,0
+"David, send the budget just today.",action_item,SPEAKER_02,0,0,0
+We're choosing the campaign approach.,decision,SPEAKER_03,0,0,0
+Did Emma review the slides?,general,SPEAKER_01,0,0,0
+We expect you know the code by Wednesday.,deadline_mention,SPEAKER_02,0,0,0
+They always review maybe the slides late.,general,SPEAKER_04,0,0,0
+We I mean expect the wireframes by Friday.,deadline_mention,SPEAKER_00,0,0,0
+We expect the wireframes by next week.,deadline_mention,SPEAKER_00,0,0,0
+We you know expect the report by Wednesday.,deadline_mention,SPEAKER_00,0,0,0
+The main topic today is just the report.,topic,SPEAKER_04,0,0,0
+Can Mike review the plan?,action_item,SPEAKER_02,0,0,0
+Turning our you know attention to the architecture.,topic,SPEAKER_03,0,0,0
+Regarding actually the architecture design.,deadline_mention,SPEAKER_01,0,0,0
+Could you please forward that wireframes kind of to Priya?,topic,SPEAKER_01,0,0,0
+Make sure to deliver basically the slides by Friday.,action_item,SPEAKER_04,0,0,0
+The I mean decision is to create the slides.,decision,SPEAKER_00,0,0,0
+This must be ready just by Thursday.,deadline_mention,SPEAKER_00,0,0,0
+The decision definitely is to update the campaign.,decision,SPEAKER_00,0,0,0
+The target basically delivery is Tuesday.,deadline_mention,SPEAKER_02,0,0,0
+Moving basically on to the plan.,topic,SPEAKER_00,0,0,0
+"Sarah, create the wireframes today.",action_item,SPEAKER_03,0,0,0
+The I mean main topic today is the slides.,topic,SPEAKER_01,0,0,0
+She kind of didn't check the campaign.,general,SPEAKER_00,0,0,0
+Make sure like to deliver the slides by EOD.,action_item,SPEAKER_03,0,0,0
+"John, create the design today.",action_item,SPEAKER_03,0,0,0
+Let's I mean discuss our decision on the budget.,topic,SPEAKER_04,0,0,0
+I usually maybe update reports on Fridays.,general,SPEAKER_01,0,0,0
+I need you to finish this slides.,action_item,SPEAKER_02,0,0,0
+Make sure to verify the plan before Tuesday.,action_item,SPEAKER_03,0,0,0
+Let's discuss our decision on the kind of code.,topic,SPEAKER_02,0,0,0
+It maybe is due Tuesday.,deadline_mention,SPEAKER_03,0,0,0
+Make sure to finish the design before Monday.,action_item,SPEAKER_02,0,0,0
+The next agenda basically item is the code plan.,topic,SPEAKER_02,0,0,0
+Make sure to deliver the architecture before Tuesday.,action_item,SPEAKER_00,0,0,0
+We expect the wireframes by Friday.,deadline_mention,SPEAKER_01,0,0,0
+I need you know you to verify this copy.,action_item,SPEAKER_02,0,0,0
+We're choosing the slides approach.,decision,SPEAKER_04,0,0,0
+We actually expect the budget by Friday.,deadline_mention,SPEAKER_00,0,0,0
+It's agreed that we will draft the maybe campaign.,decision,SPEAKER_04,0,0,0
+Make sure to verify the slides before Thursday.,deadline_mention,SPEAKER_04,0,0,0
+Did Raj draft the like budget?,general,SPEAKER_02,0,0,0
+Moving on to the maybe architecture.,deadline_mention,SPEAKER_02,0,0,0
+Cutoff for the architecture is Tuesday.,deadline_mention,SPEAKER_04,0,0,0
+This must be ready by actually Thursday.,deadline_mention,SPEAKER_00,0,0,0
+So we're going with the new basically campaign.,decision,SPEAKER_03,0,0,0
+Did definitely Priya draft the architecture?,general,SPEAKER_00,0,0,0
+It is due kind of Friday.,deadline_mention,SPEAKER_04,0,0,0
+Can Raj deliver like the plan?,action_item,SPEAKER_01,0,0,0
+To create the plan takes a lot of time.,general,SPEAKER_02,0,0,0
+So we're going with probably the new budget.,topic,SPEAKER_04,0,0,0
+The target delivery is like Thursday.,deadline_mention,SPEAKER_02,0,0,0
+Cutoff for the plan is EOD.,deadline_mention,SPEAKER_01,0,0,0
+Regarding I mean the campaign design.,topic,SPEAKER_01,0,0,0
+The target I mean delivery is tomorrow.,topic,SPEAKER_02,0,0,0
+Could you please forward like that copy to John?,action_item,SPEAKER_03,0,0,0
+I usually deliver like reports on Fridays.,general,SPEAKER_03,0,0,0
+I need you to verify this design.,action_item,SPEAKER_04,0,0,0
+We're basically choosing the campaign approach.,decision,SPEAKER_03,0,0,0
+The decision is to definitely deliver the budget.,topic,SPEAKER_02,0,0,0
+Make sure to finish the wireframes before end probably of week.,action_item,SPEAKER_04,0,0,0
+We are moving actually forward with the campaign plan.,decision,SPEAKER_00,0,0,0
+It is definitely due tomorrow.,deadline_mention,SPEAKER_01,0,0,0
+This must be actually ready by Friday.,deadline_mention,SPEAKER_02,0,0,0
+Cutoff for the report is definitely Thursday.,deadline_mention,SPEAKER_00,0,0,0
+We expect the code by like Wednesday.,deadline_mention,SPEAKER_02,0,0,0
+Please probably finish the campaign by Friday.,action_item,SPEAKER_03,0,0,0
+Let's talk about the probably code approach.,topic,SPEAKER_01,0,0,0
+Turning kind of our attention to the code.,topic,SPEAKER_04,0,0,0
+Regarding the maybe architecture design.,topic,SPEAKER_01,0,0,0
+Make sure to deliver the budget by EOD.,action_item,SPEAKER_04,0,0,0
+Could you please forward that plan to Nina?,action_item,SPEAKER_03,0,0,0
+The campaign actually schedule ends on end of week.,deadline_mention,SPEAKER_01,0,0,0
+The next agenda item is you know the slides plan.,topic,SPEAKER_01,0,0,0
+It basically is due EOD.,deadline_mention,SPEAKER_00,0,0,0
+I don't think we need to deliver probably the copy.,general,SPEAKER_01,0,0,0
+I need you to review this wireframes.,action_item,SPEAKER_00,0,0,0
+It actually is due Friday.,deadline_mention,SPEAKER_00,0,0,0
+It's agreed that we will check the report.,decision,SPEAKER_00,0,0,0
+"If you review the budget, let me know.",general,SPEAKER_02,0,0,0
+"If you deliver the slides, let definitely me know.",general,SPEAKER_00,0,0,0
+Let's discuss maybe our decision on the copy.,topic,SPEAKER_04,0,0,0
+Let's like discuss our decision on the report.,topic,SPEAKER_00,0,0,0
+We have decided to go with the new plan.,decision,SPEAKER_04,0,0,0
+To verify the copy takes a lot of time.,general,SPEAKER_00,0,0,0
+The target delivery is basically Friday.,deadline_mention,SPEAKER_00,0,0,0
+We are definitely moving forward with the campaign plan.,decision,SPEAKER_00,0,0,0
+Did Raj review the report?,general,SPEAKER_02,0,0,0
+Cutoff for the campaign actually is tomorrow.,deadline_mention,SPEAKER_03,0,0,0
+We expect the just copy by Wednesday.,deadline_mention,SPEAKER_03,0,0,0
+Our final choice is the plan definitely design.,decision,SPEAKER_01,0,0,0
+The slides schedule probably ends on Monday.,deadline_mention,SPEAKER_03,0,0,0
+I usually update reports on maybe Fridays.,general,SPEAKER_04,0,0,0
+Turning our kind of attention to the slides.,topic,SPEAKER_00,0,0,0
+Regarding the budget maybe design.,topic,SPEAKER_03,0,0,0
+She didn't deliver the wireframes.,general,SPEAKER_00,0,0,0
+We settled on option definitely John.,decision,SPEAKER_00,0,0,0
+The main topic today is just the wireframes.,deadline_mention,SPEAKER_01,0,0,0
+The deadline for the campaign is EOD.,deadline_mention,SPEAKER_04,0,0,0
+I don't think we need to draft the report.,general,SPEAKER_01,0,0,0
+The code schedule ends on Monday.,topic,SPEAKER_00,0,0,0
+The next agenda item is the like report plan.,topic,SPEAKER_00,0,0,0
+The deadline for the copy is Wednesday.,deadline_mention,SPEAKER_00,0,0,0
+"If you review the architecture, like let me know.",general,SPEAKER_01,0,0,0
+Did David create the report?,general,SPEAKER_00,0,0,0
+I don't think we need to review probably the architecture.,general,SPEAKER_00,0,0,0
+I am not sure if I can prepare it.,general,SPEAKER_02,0,0,0
+It's agreed that we will actually update the campaign.,decision,SPEAKER_01,0,0,0
+Did John deliver the maybe plan?,general,SPEAKER_02,0,0,0
+We expect just the slides by Wednesday.,deadline_mention,SPEAKER_04,0,0,0
+Let's discuss our decision like on the copy.,topic,SPEAKER_01,0,0,0
+Make sure to deliver the budget by next week.,action_item,SPEAKER_03,0,0,0
+"David, finish the design definitely today.",action_item,SPEAKER_03,0,0,0
+We're like choosing the budget approach.,decision,SPEAKER_02,0,0,0
+I am not sure if I can definitely verify it.,general,SPEAKER_03,0,0,0
+I don't think we need to draft actually the wireframes.,general,SPEAKER_01,0,0,0
+I need you to create this budget.,action_item,SPEAKER_04,0,0,0
+So we're going with the kind of new budget.,decision,SPEAKER_00,0,0,0
+We need like to cover the wireframes.,topic,SPEAKER_03,0,0,0
+We are moving forward actually with the budget plan.,decision,SPEAKER_02,0,0,0
+The main topic today probably is the wireframes.,topic,SPEAKER_04,0,0,0
+Did John probably send the report?,general,SPEAKER_03,0,0,0
+This must be ready just by tomorrow.,deadline_mention,SPEAKER_00,0,0,0
+Can you know John draft the slides?,action_item,SPEAKER_00,0,0,0
+Our final choice is the basically wireframes design.,decision,SPEAKER_02,0,0,0
+We kind of are moving forward with the report plan.,decision,SPEAKER_02,0,0,0
+Make sure to review the campaign before Thursday.,action_item,SPEAKER_00,0,0,0
+Make sure to you know deliver the architecture by Tuesday.,action_item,SPEAKER_03,0,0,0
+Don't forget to prepare definitely the budget.,action_item,SPEAKER_00,0,0,0
+We you know need to cover the code.,topic,SPEAKER_00,0,0,0
+"Priya, finish the copy today.",action_item,SPEAKER_04,0,0,0
+I need you to update this wireframes.,action_item,SPEAKER_00,0,0,0
+Regarding the campaign just design.,topic,SPEAKER_02,0,0,0
+The design schedule ends on Friday.,deadline_mention,SPEAKER_01,0,0,0
+The architecture schedule definitely ends on Wednesday.,deadline_mention,SPEAKER_02,0,0,0
+The next agenda item is the kind of budget plan.,topic,SPEAKER_00,0,0,0
+"Sarah, check definitely the budget today.",action_item,SPEAKER_00,0,0,0
+The slides schedule ends on EOD.,deadline_mention,SPEAKER_03,0,0,0
+We expect definitely the plan by Wednesday.,deadline_mention,SPEAKER_04,0,0,0
+Did John prepare definitely the design?,general,SPEAKER_02,0,0,0
+So we're going with the maybe new budget.,decision,SPEAKER_00,0,0,0
+Could you probably please forward that wireframes to Priya?,action_item,SPEAKER_02,0,0,0
+We're choosing the just design approach.,decision,SPEAKER_04,0,0,0
+The deadline for the campaign I mean is Monday.,deadline_mention,SPEAKER_00,0,0,0
+We I mean settled on option Priya.,decision,SPEAKER_02,0,0,0
+Let's discuss our maybe decision on the slides.,topic,SPEAKER_00,0,0,0
+We need to cover definitely the plan.,topic,SPEAKER_02,0,0,0
+Don't forget to definitely prepare the architecture.,action_item,SPEAKER_02,0,0,0
+We're choosing kind of the plan approach.,action_item,SPEAKER_01,0,0,0
+It's agreed that we will I mean prepare the report.,decision,SPEAKER_00,0,0,0
+The target delivery is Tuesday.,deadline_mention,SPEAKER_00,0,0,0
+Can John send the wireframes?,topic,SPEAKER_00,0,0,0
+Make sure actually to draft the copy before Monday.,decision,SPEAKER_01,0,0,0
+Did Nina deliver the actually copy?,general,SPEAKER_01,0,0,0
+We need to cover the I mean wireframes.,topic,SPEAKER_02,0,0,0
+Don't forget to review the copy.,action_item,SPEAKER_02,0,0,0
+We maybe need to cover the slides.,topic,SPEAKER_03,0,0,0
+Don't forget to verify the slides.,topic,SPEAKER_01,0,0,0
+"Priya, create the you know budget today.",action_item,SPEAKER_02,0,0,0
+Make sure actually to prepare the slides before Monday.,action_item,SPEAKER_03,0,0,0
+The main topic today is the budget.,topic,SPEAKER_00,0,0,0
+We are moving forward with like the architecture plan.,decision,SPEAKER_02,0,0,0
+They always like review the plan late.,deadline_mention,SPEAKER_04,0,0,0
+It's agreed that we will prepare the budget.,general,SPEAKER_01,0,0,0
+Can Raj deliver the report?,action_item,SPEAKER_03,0,0,0
+We have decided to go with the I mean new design.,decision,SPEAKER_01,0,0,0
+Please create the architecture by Wednesday.,action_item,SPEAKER_04,0,0,0
+Please send the slides by Monday.,action_item,SPEAKER_01,0,0,0
+Let's talk just about the code approach.,topic,SPEAKER_01,0,0,0
+Make sure to check the plan before EOD.,action_item,SPEAKER_00,0,0,0
+So we're going with maybe the new architecture.,general,SPEAKER_01,0,0,0
+Cutoff for the report is Tuesday.,deadline_mention,SPEAKER_02,0,0,0
+We're maybe choosing the code approach.,decision,SPEAKER_04,0,0,0
+I usually deliver reports on basically Fridays.,general,SPEAKER_04,0,0,0
+To update definitely the budget takes a lot of time.,general,SPEAKER_01,0,0,0
+To create the campaign takes a lot of time.,general,SPEAKER_04,0,0,0
+We're choosing just the architecture approach.,decision,SPEAKER_02,0,0,0
+Let's discuss our decision on definitely the campaign.,topic,SPEAKER_00,0,0,0
+We have decided to go maybe with the new report.,decision,SPEAKER_02,0,0,0
+"If you send the slides, let me know.",general,SPEAKER_02,0,0,0
+So we're going with the definitely new architecture.,decision,SPEAKER_00,0,0,0
+I don't think I mean we need to draft the architecture.,general,SPEAKER_00,0,0,0
+The deadline for the campaign is Thursday.,deadline_mention,SPEAKER_01,0,0,0
+It's agreed that we will draft the like budget.,decision,SPEAKER_03,0,0,0
+We're choosing basically the architecture approach.,decision,SPEAKER_04,0,0,0
+Cutoff for the budget is Tuesday.,deadline_mention,SPEAKER_02,0,0,0
+Turning probably our attention to the budget.,topic,SPEAKER_01,0,0,0
+Could you please forward that wireframes to Emma?,action_item,SPEAKER_04,0,0,0
+It's agreed that we will verify the budget.,decision,SPEAKER_01,0,0,0
+Moving on to the definitely budget.,topic,SPEAKER_00,0,0,0
+Let's kind of talk about the code approach.,topic,SPEAKER_03,0,0,0
+I am not sure if actually I can finish it.,general,SPEAKER_04,0,0,0
+They always create the campaign late.,general,SPEAKER_01,0,0,0
+Make sure to deliver the code by Wednesday.,action_item,SPEAKER_00,0,0,0
+Could like you please forward that campaign to Priya?,action_item,SPEAKER_03,0,0,0
+We need to cover the you know slides.,general,SPEAKER_04,0,0,0
+This must be actually ready by Wednesday.,action_item,SPEAKER_01,0,0,0
+Regarding probably the architecture design.,topic,SPEAKER_03,0,0,0
+Turning our you know attention to the report.,topic,SPEAKER_03,0,0,0
+The design schedule just ends on Monday.,decision,SPEAKER_02,0,0,0
+The deadline for the report is next week.,deadline_mention,SPEAKER_02,0,0,0
+The deadline for the slides is end of like week.,deadline_mention,SPEAKER_04,0,0,0
+Make sure to deliver the copy by next week.,action_item,SPEAKER_01,0,0,0
+"Sarah, maybe deliver the architecture today.",action_item,SPEAKER_00,0,0,0
+We settled on like option John.,decision,SPEAKER_04,0,0,0
+Regarding the report kind of design.,topic,SPEAKER_03,0,0,0
+Make sure to create the code before probably next week.,action_item,SPEAKER_02,0,0,0
+"Sarah, verify the campaign today.",action_item,SPEAKER_03,0,0,0
+The decision is just to create the copy.,decision,SPEAKER_01,0,0,0
+The target delivery kind of is tomorrow.,deadline_mention,SPEAKER_03,0,0,0
+Cutoff for maybe the copy is Tuesday.,deadline_mention,SPEAKER_00,0,0,0
+This must probably be ready by Tuesday.,deadline_mention,SPEAKER_04,0,0,0
+I don't think we need to send the like campaign.,general,SPEAKER_03,0,0,0
+I need you to check this actually plan.,action_item,SPEAKER_01,0,0,0
+We have decided I mean to go with the new architecture.,decision,SPEAKER_03,0,0,0
+We expect the architecture by Thursday.,deadline_mention,SPEAKER_00,0,0,0
+Cutoff for the like wireframes is Friday.,deadline_mention,SPEAKER_00,0,0,0
+It is due end like of week.,deadline_mention,SPEAKER_03,0,0,0
+The next agenda item is probably the report plan.,topic,SPEAKER_02,0,0,0
+It is due probably Tuesday.,deadline_mention,SPEAKER_01,0,0,0
+I don't think just we need to check the slides.,general,SPEAKER_00,0,0,0
+It's agreed that we will send just the slides.,decision,SPEAKER_01,0,0,0
+So we're going with the new probably architecture.,decision,SPEAKER_02,0,0,0
+We expect the you know slides by Monday.,deadline_mention,SPEAKER_01,0,0,0
+We you know expect the slides by EOD.,deadline_mention,SPEAKER_04,0,0,0
+We have decided to go actually with the new campaign.,decision,SPEAKER_01,0,0,0
+We're choosing the architecture I mean approach.,decision,SPEAKER_04,0,0,0
+The decision is actually to verify the campaign.,decision,SPEAKER_04,0,0,0
+The design schedule ends on maybe Thursday.,general,SPEAKER_02,0,0,0
+She didn't send the wireframes.,general,SPEAKER_00,0,0,0
+I need you to update this copy.,action_item,SPEAKER_01,0,0,0
+We are moving forward definitely with the slides plan.,decision,SPEAKER_04,0,0,0
+"If you kind of update the slides, let me know.",general,SPEAKER_03,0,0,0
+We need to cover the report.,topic,SPEAKER_03,0,0,0
+The design like schedule ends on tomorrow.,deadline_mention,SPEAKER_01,0,0,0
+We're choosing basically the campaign approach.,decision,SPEAKER_04,0,0,0
+It's agreed that we will prepare the wireframes.,decision,SPEAKER_00,0,0,0
+The next agenda item I mean is the slides plan.,topic,SPEAKER_00,0,0,0
+The decision is to create the plan.,decision,SPEAKER_01,0,0,0
+The copy schedule ends on Thursday.,deadline_mention,SPEAKER_03,0,0,0
+Let's discuss our decision on the report.,topic,SPEAKER_00,0,0,0
+We expect the probably design by Friday.,deadline_mention,SPEAKER_02,0,0,0
+Don't forget to send the campaign.,action_item,SPEAKER_03,0,0,0
+The target kind of delivery is Wednesday.,deadline_mention,SPEAKER_03,0,0,0
+Moving on to the architecture.,topic,SPEAKER_04,0,0,0
+We expect the slides by EOD.,deadline_mention,SPEAKER_00,0,0,0
+I don't think we kind of need to review the report.,decision,SPEAKER_03,0,0,0
+This must you know be ready by Thursday.,deadline_mention,SPEAKER_01,0,0,0
+"If you update the just campaign, let me know.",general,SPEAKER_01,0,0,0
+I usually update kind of reports on Fridays.,action_item,SPEAKER_03,0,0,0
+Could you please forward that report to Nina?,action_item,SPEAKER_03,0,0,0
+The target delivery is kind of Thursday.,deadline_mention,SPEAKER_04,0,0,0
+We settled on maybe option David.,decision,SPEAKER_01,0,0,0
+She didn't definitely deliver the wireframes.,general,SPEAKER_01,0,0,0
+Moving probably on to the budget.,topic,SPEAKER_02,0,0,0
+The target actually delivery is tomorrow.,general,SPEAKER_01,0,0,0
+"If you check the slides, let me know.",general,SPEAKER_04,0,0,0
+Let's talk basically about the slides approach.,topic,SPEAKER_02,0,0,0
+It you know is due Friday.,action_item,SPEAKER_02,0,0,0
+Let's discuss our decision on maybe the plan.,topic,SPEAKER_00,0,0,0
+We expect I mean the slides by Wednesday.,deadline_mention,SPEAKER_00,0,0,0
+Cutoff for the plan is Wednesday.,deadline_mention,SPEAKER_00,0,0,0
+I usually create reports on I mean Fridays.,general,SPEAKER_00,0,0,0
+Make sure to deliver the copy by Wednesday.,action_item,SPEAKER_02,0,0,0
+Make sure like to check the wireframes before Monday.,action_item,SPEAKER_02,0,0,0
+Did I mean Mike deliver the design?,general,SPEAKER_04,0,0,0
+Please prepare the code by tomorrow.,action_item,SPEAKER_04,0,0,0
+Turning our just attention to the wireframes.,topic,SPEAKER_03,0,0,0
+To verify the code takes a lot of time.,general,SPEAKER_02,0,0,0
+To update the slides takes a lot of time.,general,SPEAKER_00,0,0,0
+To create the copy takes a lot of time.,general,SPEAKER_00,0,0,0
+Moving kind of on to the code.,topic,SPEAKER_02,0,0,0
+We're probably choosing the architecture approach.,decision,SPEAKER_03,0,0,0
+The deadline for the definitely code is Tuesday.,general,SPEAKER_04,0,0,0
+The you know decision is to create the design.,decision,SPEAKER_02,0,0,0
+Make just sure to deliver the report by EOD.,topic,SPEAKER_00,0,0,0
+We probably have decided to go with the new wireframes.,general,SPEAKER_04,0,0,0
+I need actually you to create this campaign.,topic,SPEAKER_03,0,0,0
+Please finish kind of the design by Thursday.,action_item,SPEAKER_02,0,0,0
+We need to cover the plan.,topic,SPEAKER_02,0,0,0
+Please create the copy by next week.,action_item,SPEAKER_04,0,0,0
+The report schedule ends on Thursday.,deadline_mention,SPEAKER_03,0,0,0
+Make sure to create the copy before Thursday.,action_item,SPEAKER_02,0,0,0
+We have decided to go with just the new code.,decision,SPEAKER_02,0,0,0
+I need you to finish this report.,action_item,SPEAKER_03,0,0,0
+To draft the kind of copy takes a lot of time.,general,SPEAKER_03,0,0,0
+Let's talk about the campaign approach.,topic,SPEAKER_03,0,0,0
+They always create the plan late.,general,SPEAKER_00,0,0,0
+Let's basically discuss our decision on the code.,topic,SPEAKER_04,0,0,0
+The deadline for the report kind of is Friday.,deadline_mention,SPEAKER_01,0,0,0
+It is due I mean Wednesday.,deadline_mention,SPEAKER_00,0,0,0
+The definitely target delivery is Thursday.,deadline_mention,SPEAKER_03,0,0,0
+We are moving forward with just the architecture plan.,decision,SPEAKER_04,0,0,0
+The definitely next agenda item is the slides plan.,topic,SPEAKER_02,0,0,0
+Turning our attention to you know the campaign.,topic,SPEAKER_02,0,0,0
+The probably target delivery is Monday.,deadline_mention,SPEAKER_00,0,0,0
+I need you to update this slides.,action_item,SPEAKER_01,0,0,0
+Let's talk about the wireframes kind of approach.,topic,SPEAKER_03,0,0,0
+It's agreed that just we will prepare the budget.,decision,SPEAKER_04,0,0,0
+They always prepare the report late.,general,SPEAKER_02,0,0,0
+I don't think we need to update the campaign.,general,SPEAKER_04,0,0,0
+We settled on basically option Raj.,action_item,SPEAKER_00,0,0,0
+Please finish the report by tomorrow.,decision,SPEAKER_02,0,0,0
+Could maybe you please forward that slides to Raj?,action_item,SPEAKER_00,0,0,0
+"If you finish the like copy, let me know.",general,SPEAKER_02,0,0,0
+This kind of must be ready by tomorrow.,deadline_mention,SPEAKER_00,0,0,0
+It is due Friday.,deadline_mention,SPEAKER_01,0,0,0
+The decision is to draft the design.,decision,SPEAKER_04,0,0,0
+We need to cover the slides.,topic,SPEAKER_01,0,0,0
+It is I mean due Thursday.,deadline_mention,SPEAKER_04,0,0,0
+The code schedule ends on Friday.,deadline_mention,SPEAKER_04,0,0,0
+I don't just think we need to review the architecture.,general,SPEAKER_01,0,0,0
+Moving like on to the slides.,topic,SPEAKER_04,0,0,0
+Let's talk about the design approach.,topic,SPEAKER_00,0,0,0
+We are moving forward with the wireframes plan.,decision,SPEAKER_04,0,0,0
+The design schedule ends on Wednesday.,deadline_mention,SPEAKER_04,0,0,0
+I usually finish basically reports on Fridays.,decision,SPEAKER_04,0,0,0
+Please I mean prepare the wireframes by Thursday.,action_item,SPEAKER_01,0,0,0
+Our final choice maybe is the slides design.,decision,SPEAKER_02,0,0,0
+We settled on basically option Priya.,decision,SPEAKER_02,0,0,0
+They always review the code I mean late.,general,SPEAKER_01,0,0,0
+I need you to prepare this report.,deadline_mention,SPEAKER_04,0,0,0
+They always you know send the wireframes late.,general,SPEAKER_00,0,0,0
+We need to kind of cover the report.,general,SPEAKER_02,0,0,0
+"If you basically finish the copy, let me know.",general,SPEAKER_04,0,0,0
+The decision is to finish the campaign.,deadline_mention,SPEAKER_02,0,0,0
+We expect the wireframes probably by tomorrow.,deadline_mention,SPEAKER_00,0,0,0
+Moving on probably to the copy.,topic,SPEAKER_02,0,0,0
+Regarding the slides kind of design.,topic,SPEAKER_03,0,0,0
+Turning our kind of attention to the copy.,topic,SPEAKER_01,0,0,0
+They always I mean finish the budget late.,general,SPEAKER_03,0,0,0
+She you know didn't send the copy.,general,SPEAKER_03,0,0,0
+"John, I mean draft the code today.",action_item,SPEAKER_00,0,0,0
+We're choosing the code probably approach.,decision,SPEAKER_02,0,0,0
+Please prepare the wireframes by Tuesday.,action_item,SPEAKER_02,0,0,0
+Cutoff for the wireframes is Tuesday.,deadline_mention,SPEAKER_01,0,0,0
+She didn't deliver the slides.,general,SPEAKER_01,0,0,0
+They always just verify the slides late.,general,SPEAKER_01,0,0,0
+I don't think we need to deliver the campaign.,general,SPEAKER_01,0,0,0
+Did Nina kind of review the slides?,general,SPEAKER_00,0,0,0
+We're choosing the architecture just approach.,decision,SPEAKER_00,0,0,0
+The next agenda item is the I mean plan plan.,topic,SPEAKER_03,0,0,0
+We settled on option David.,deadline_mention,SPEAKER_04,0,0,0
+The code basically schedule ends on Tuesday.,deadline_mention,SPEAKER_02,0,0,0
+The deadline for the campaign is Wednesday.,deadline_mention,SPEAKER_03,0,0,0
+Moving on kind of to the report.,topic,SPEAKER_04,0,0,0
+This must be ready by end I mean of week.,deadline_mention,SPEAKER_02,0,0,0
+Did David draft actually the copy?,general,SPEAKER_01,0,0,0
+The budget you know schedule ends on Thursday.,deadline_mention,SPEAKER_04,0,0,0
+Can John just update the report?,action_item,SPEAKER_03,0,0,0
+We just have decided to go with the new report.,decision,SPEAKER_01,0,0,0
+Did David review the slides?,general,SPEAKER_01,0,0,0
+The plan schedule ends actually on Thursday.,deadline_mention,SPEAKER_03,0,0,0
+We need to cover the like budget.,topic,SPEAKER_01,0,0,0
+It's agreed that we will prepare like the wireframes.,decision,SPEAKER_03,0,0,0
+Make sure to update the code before next week.,action_item,SPEAKER_04,0,0,0
+Regarding the plan just design.,topic,SPEAKER_00,0,0,0
+We have decided to you know go with the new campaign.,decision,SPEAKER_00,0,0,0
+Don't forget to check definitely the wireframes.,action_item,SPEAKER_01,0,0,0
+Let's discuss our decision on just the plan.,topic,SPEAKER_00,0,0,0
+This you know must be ready by Monday.,deadline_mention,SPEAKER_03,0,0,0
+Make sure to verify the design basically before Tuesday.,action_item,SPEAKER_03,0,0,0
+The main maybe topic today is the design.,topic,SPEAKER_03,0,0,0
+She didn't finish the basically design.,general,SPEAKER_00,0,0,0
+We you know settled on option John.,decision,SPEAKER_03,0,0,0
+Please update the wireframes by Tuesday.,action_item,SPEAKER_01,0,0,0
+Our final maybe choice is the wireframes design.,decision,SPEAKER_04,0,0,0
+I need you to send this report.,action_item,SPEAKER_04,0,0,0
+Let's discuss our decision on the architecture.,topic,SPEAKER_00,0,0,0
+We expect the budget just by Friday.,deadline_mention,SPEAKER_04,0,0,0
+To basically deliver the copy takes a lot of time.,general,SPEAKER_04,0,0,0
+I don't think we need to create the design.,general,SPEAKER_01,0,0,0
+It's agreed that we maybe will create the wireframes.,decision,SPEAKER_01,0,0,0
+Cutoff for the budget is Monday.,deadline_mention,SPEAKER_04,0,0,0
+Cutoff for definitely the slides is end of week.,deadline_mention,SPEAKER_02,0,0,0
+Please I mean send the design by Wednesday.,action_item,SPEAKER_00,0,0,0
+So we're going with the new definitely wireframes.,decision,SPEAKER_04,0,0,0
+To update the code takes a lot of time.,general,SPEAKER_00,0,0,0
+Cutoff for the code is Thursday.,deadline_mention,SPEAKER_00,0,0,0
+Make sure to just deliver the slides by Monday.,action_item,SPEAKER_00,0,0,0
+Please review the campaign by end of just week.,action_item,SPEAKER_02,0,0,0
+"If you deliver the code, let me know.",general,SPEAKER_02,0,0,0
+She didn't finish the design.,general,SPEAKER_02,0,0,0
+The maybe main topic today is the architecture.,topic,SPEAKER_01,0,0,0
+The decision is kind of to send the code.,deadline_mention,SPEAKER_00,0,0,0
+We expect the plan by next just week.,general,SPEAKER_01,0,0,0
+"David, I mean finish the budget today.",action_item,SPEAKER_03,0,0,0
+The main topic today is the copy.,topic,SPEAKER_00,0,0,0
+To review the definitely wireframes takes a lot of time.,general,SPEAKER_04,0,0,0
+The plan schedule ends on Friday.,deadline_mention,SPEAKER_04,0,0,0
+The basically copy schedule ends on next week.,deadline_mention,SPEAKER_02,0,0,0
+Regarding the just campaign design.,topic,SPEAKER_03,0,0,0
+They actually always send the code late.,general,SPEAKER_03,0,0,0
+We expect the design by EOD.,deadline_mention,SPEAKER_03,0,0,0
+We have decided actually to go with the new design.,decision,SPEAKER_03,0,0,0
+She didn't review the copy.,general,SPEAKER_01,0,0,0
+Did Nina verify the slides?,general,SPEAKER_02,0,0,0
+I need I mean you to check this report.,action_item,SPEAKER_02,0,0,0
+Let's talk probably about the budget approach.,topic,SPEAKER_00,0,0,0
+I need you to finish definitely this code.,action_item,SPEAKER_03,0,0,0
+So we're going with the new budget.,decision,SPEAKER_00,0,0,0
+We have decided to go with the new code.,deadline_mention,SPEAKER_00,0,0,0
+Let's talk you know about the code approach.,topic,SPEAKER_02,0,0,0
+They always I mean prepare the architecture late.,general,SPEAKER_02,0,0,0
+"Sarah, review the slides I mean today.",deadline_mention,SPEAKER_04,0,0,0
+They always update the design late.,general,SPEAKER_03,0,0,0
+We expect the slides by you know Thursday.,deadline_mention,SPEAKER_04,0,0,0
+The budget schedule actually ends on end of week.,deadline_mention,SPEAKER_01,0,0,0
+"David, draft the like budget today.",action_item,SPEAKER_02,0,0,0
+Don't forget to verify the copy.,action_item,SPEAKER_03,0,0,0
+Our final choice is the report maybe design.,decision,SPEAKER_04,0,0,0
+I need you to check this design.,decision,SPEAKER_04,0,0,0
+Turning our maybe attention to the slides.,topic,SPEAKER_01,0,0,0
+We are moving like forward with the copy plan.,decision,SPEAKER_00,0,0,0
+I am maybe not sure if I can finish it.,general,SPEAKER_03,0,0,0
+We settled on option Emma.,decision,SPEAKER_00,0,0,0
+We just settled on option Emma.,decision,SPEAKER_00,0,0,0
+Can Raj create the you know architecture?,action_item,SPEAKER_02,0,0,0
+Please draft the campaign by Tuesday.,action_item,SPEAKER_04,0,0,0
+"Emma, create the campaign today.",action_item,SPEAKER_02,0,0,0
+We're choosing maybe the plan approach.,decision,SPEAKER_04,0,0,0
+We expect the architecture by next just week.,deadline_mention,SPEAKER_00,0,0,0
+"If you just prepare the design, let me know.",general,SPEAKER_02,0,0,0
+Let's discuss our decision on basically the copy.,topic,SPEAKER_01,0,0,0
+I don't think like we need to finish the slides.,general,SPEAKER_01,0,0,0
+We settled on like option David.,decision,SPEAKER_02,0,0,0
+The probably plan schedule ends on next week.,decision,SPEAKER_01,0,0,0
+I like am not sure if I can deliver it.,general,SPEAKER_01,0,0,0
+To deliver the code takes a lot of time.,general,SPEAKER_01,0,0,0
+"Mike, update the budget just today.",action_item,SPEAKER_02,0,0,0
+We need to cover definitely the architecture.,topic,SPEAKER_00,0,0,0
+Let's discuss our decision on like the design.,topic,SPEAKER_02,0,0,0
+So we're going like with the new campaign.,decision,SPEAKER_04,0,0,0
+Cutoff for the design is next week.,deadline_mention,SPEAKER_01,0,0,0
+The next probably agenda item is the plan plan.,topic,SPEAKER_03,0,0,0
+Moving on to basically the wireframes.,topic,SPEAKER_03,0,0,0
+Moving on to the like slides.,topic,SPEAKER_03,0,0,0
+I don't think we need to create the code.,general,SPEAKER_01,0,0,0
+Let's talk maybe about the budget approach.,topic,SPEAKER_04,0,0,0
+Let's discuss our decision on kind of the budget.,topic,SPEAKER_00,0,0,0
+She didn't deliver the kind of code.,general,SPEAKER_02,0,0,0
+It's agreed that we will create the wireframes.,general,SPEAKER_01,0,0,0
+It's agreed that I mean we will prepare the budget.,decision,SPEAKER_01,0,0,0
+The deadline for the architecture is Tuesday.,deadline_mention,SPEAKER_04,0,0,0
+Turning our basically attention to the slides.,topic,SPEAKER_03,0,0,0
+I need you to finish this design.,action_item,SPEAKER_01,0,0,0
+"If you check the campaign, let me know.",general,SPEAKER_02,0,0,0
+The deadline for the plan is Friday.,deadline_mention,SPEAKER_00,0,0,0
+Could you please forward that campaign to Priya?,action_item,SPEAKER_03,0,0,0
+The probably next agenda item is the wireframes plan.,topic,SPEAKER_03,0,0,0
+The decision probably is to create the architecture.,decision,SPEAKER_03,0,0,0
+We have decided to go with the new basically budget.,decision,SPEAKER_02,0,0,0
+We expect the design by you know Thursday.,deadline_mention,SPEAKER_01,0,0,0
+I am not sure maybe if I can finish it.,decision,SPEAKER_03,0,0,0
+"Raj, deliver the budget you know today.",action_item,SPEAKER_02,0,0,0
+Turning kind of our attention to the copy.,topic,SPEAKER_00,0,0,0
+To check the architecture takes a lot of time.,general,SPEAKER_02,0,0,0
+Don't forget to check the budget.,action_item,SPEAKER_02,0,0,0
+Make sure to draft the architecture before Monday.,action_item,SPEAKER_03,0,0,0
+This must be ready basically by tomorrow.,deadline_mention,SPEAKER_02,0,0,0
+"If you send the copy, let like me know.",general,SPEAKER_03,0,0,0
+Moving maybe on to the campaign.,topic,SPEAKER_00,0,0,0
+Could you please forward that budget to Priya?,action_item,SPEAKER_04,0,0,0
+"If you prepare the architecture, let me know.",general,SPEAKER_01,0,0,0
+I am not sure if definitely I can prepare it.,general,SPEAKER_02,0,0,0
+Please prepare the slides by Wednesday.,action_item,SPEAKER_04,0,0,0
+I need you to finish maybe this copy.,action_item,SPEAKER_00,0,0,0
+Please check the plan by EOD.,action_item,SPEAKER_01,0,0,0
+The campaign schedule ends definitely on Tuesday.,deadline_mention,SPEAKER_02,0,0,0
+Did Raj check the copy?,general,SPEAKER_00,0,0,0
+I maybe need you to review this copy.,action_item,SPEAKER_00,0,0,0
+"Mike, finish like the architecture today.",action_item,SPEAKER_01,0,0,0
+The main actually topic today is the report.,topic,SPEAKER_03,0,0,0
+I don't think we need to I mean update the campaign.,topic,SPEAKER_02,0,0,0
+The deadline for the like wireframes is Thursday.,deadline_mention,SPEAKER_02,0,0,0
+To create the budget takes basically a lot of time.,general,SPEAKER_03,0,0,0
+I don't think we need to deliver the wireframes.,general,SPEAKER_03,0,0,0
+I am maybe not sure if I can update it.,general,SPEAKER_04,0,0,0
+I don't just think we need to check the architecture.,general,SPEAKER_03,0,0,0
+I am not you know sure if I can prepare it.,general,SPEAKER_00,0,0,0
+"Sarah, create the copy you know today.",topic,SPEAKER_02,0,0,0
+Cutoff for the just copy is Friday.,deadline_mention,SPEAKER_00,0,0,0
+The decision is to verify the plan.,decision,SPEAKER_02,0,0,0
+She didn't definitely check the report.,general,SPEAKER_02,0,0,0
+The like main topic today is the report.,topic,SPEAKER_02,0,0,0
+Regarding the design I mean design.,topic,SPEAKER_02,0,0,0
+I don't think I mean we need to update the wireframes.,general,SPEAKER_02,0,0,0
+Moving on to the maybe budget.,topic,SPEAKER_03,0,0,0
+Turning our attention to the kind of slides.,topic,SPEAKER_00,0,0,0
+She didn't send the basically copy.,general,SPEAKER_03,0,0,0
+Could you please forward that design to Raj?,action_item,SPEAKER_01,0,0,0
+Moving on to like the slides.,topic,SPEAKER_01,0,0,0
+"Emma, verify the I mean campaign today.",action_item,SPEAKER_04,0,0,0
+We need to cover the copy.,topic,SPEAKER_00,0,0,0
+It's agreed that you know we will create the campaign.,decision,SPEAKER_03,0,0,0
+It's agreed that I mean we will create the report.,decision,SPEAKER_02,0,0,0
+So we're going with like the new plan.,decision,SPEAKER_02,0,0,0
+Make sure to draft definitely the campaign before Friday.,general,SPEAKER_02,0,0,0
+To deliver the wireframes takes a lot of time.,general,SPEAKER_04,0,0,0
+We just expect the campaign by end of week.,deadline_mention,SPEAKER_03,0,0,0
+The wireframes schedule ends on next week.,deadline_mention,SPEAKER_03,0,0,0
+Did just John check the copy?,general,SPEAKER_04,0,0,0
+Did probably Raj update the design?,general,SPEAKER_02,0,0,0
+They you know always create the design late.,general,SPEAKER_04,0,0,0
+Our final choice is the just budget design.,decision,SPEAKER_01,0,0,0
+The deadline basically for the campaign is Monday.,deadline_mention,SPEAKER_03,0,0,0
+So we're going with the new maybe wireframes.,decision,SPEAKER_01,0,0,0
+She didn't deliver the basically slides.,general,SPEAKER_00,0,0,0
+The main topic kind of today is the budget.,topic,SPEAKER_00,0,0,0
+The next agenda item is you know the design plan.,topic,SPEAKER_03,0,0,0
+Make sure to update the wireframes before Monday.,deadline_mention,SPEAKER_04,0,0,0
+We settled on like option Nina.,decision,SPEAKER_02,0,0,0
+We expect basically the architecture by Monday.,deadline_mention,SPEAKER_02,0,0,0
+Please verify the just plan by Wednesday.,action_item,SPEAKER_04,0,0,0
+I don't think we need to deliver the budget.,general,SPEAKER_02,0,0,0
+We're choosing kind of the report approach.,decision,SPEAKER_04,0,0,0
+The architecture schedule ends maybe on Monday.,deadline_mention,SPEAKER_00,0,0,0
+The decision is to create probably the campaign.,decision,SPEAKER_04,0,0,0
+Turning our attention to the I mean budget.,topic,SPEAKER_04,0,0,0
+We're choosing the like design approach.,decision,SPEAKER_04,0,0,0
+It's agreed that we will draft the wireframes.,decision,SPEAKER_01,0,0,0
+Make sure to deliver the like budget by Tuesday.,action_item,SPEAKER_04,0,0,0
+To review the copy takes just a lot of time.,general,SPEAKER_03,0,0,0
+We settled basically on option Priya.,decision,SPEAKER_01,0,0,0
+We settled kind of on option David.,decision,SPEAKER_01,0,0,0
+Regarding the maybe budget design.,topic,SPEAKER_01,0,0,0
+I am not sure maybe if I can check it.,general,SPEAKER_00,0,0,0
+She basically didn't send the wireframes.,general,SPEAKER_02,0,0,0
+Let's discuss our decision on like the budget.,topic,SPEAKER_03,0,0,0
+The actually main topic today is the code.,topic,SPEAKER_00,0,0,0
+I like am not sure if I can prepare it.,decision,SPEAKER_03,0,0,0
+"Raj, prepare the copy today.",action_item,SPEAKER_04,0,0,0
+"If you know you deliver the design, let me know.",general,SPEAKER_02,0,0,0
+Let's discuss maybe our decision on the code.,topic,SPEAKER_00,0,0,0
+So we're going with the new kind of wireframes.,general,SPEAKER_04,0,0,0
+We actually expect the architecture by Monday.,action_item,SPEAKER_03,0,0,0
+Moving on just to the report.,topic,SPEAKER_04,0,0,0
+Let's talk actually about the budget approach.,deadline_mention,SPEAKER_01,0,0,0
+Can Mike like prepare the budget?,action_item,SPEAKER_04,0,0,0
+The next maybe agenda item is the report plan.,topic,SPEAKER_03,0,0,0
+So we're going actually with the new copy.,decision,SPEAKER_01,0,0,0
+I basically am not sure if I can deliver it.,general,SPEAKER_04,0,0,0
+Can John draft the slides?,action_item,SPEAKER_03,0,0,0
+Cutoff definitely for the campaign is Thursday.,deadline_mention,SPEAKER_03,0,0,0
+Did Mike finish the campaign?,action_item,SPEAKER_02,0,0,0
+Moving on to the design.,topic,SPEAKER_03,0,0,0
+We probably are moving forward with the architecture plan.,decision,SPEAKER_02,0,0,0
+Let's talk kind of about the design approach.,topic,SPEAKER_03,0,0,0
+We're choosing the report approach.,decision,SPEAKER_01,0,0,0
+They actually always deliver the design late.,general,SPEAKER_00,0,0,0
+The target delivery maybe is next week.,deadline_mention,SPEAKER_03,0,0,0
+We expect the wireframes like by Thursday.,deadline_mention,SPEAKER_00,0,0,0
+Our final choice is the code design.,decision,SPEAKER_01,0,0,0
+We settled on you know option David.,action_item,SPEAKER_00,0,0,0
+"John, finish the slides today.",action_item,SPEAKER_04,0,0,0
+I don't think we need to update the code.,general,SPEAKER_01,0,0,0
+We're choosing the code approach.,decision,SPEAKER_04,0,0,0
+Can Emma check the copy?,action_item,SPEAKER_00,0,0,0
+The I mean target delivery is Thursday.,general,SPEAKER_04,0,0,0
+The copy schedule ends on Wednesday.,deadline_mention,SPEAKER_01,0,0,0
+Make sure to deliver like the slides by next week.,decision,SPEAKER_00,0,0,0
+Regarding kind of the design design.,topic,SPEAKER_02,0,0,0
+The probably main topic today is the wireframes.,topic,SPEAKER_03,0,0,0
+So we're going with like the new architecture.,decision,SPEAKER_00,0,0,0
+I don't think we need to actually finish the copy.,general,SPEAKER_01,0,0,0
+The deadline for the budget is Tuesday.,deadline_mention,SPEAKER_03,0,0,0
+Our final choice is like the report design.,decision,SPEAKER_02,0,0,0
+Can David like check the design?,action_item,SPEAKER_03,0,0,0
+Did John draft the design?,general,SPEAKER_00,0,0,0
+Make sure to deliver the report before Monday.,deadline_mention,SPEAKER_03,0,0,0
+So I mean we're going with the new copy.,decision,SPEAKER_02,0,0,0
+The actually main topic today is the design.,topic,SPEAKER_04,0,0,0
+I usually review like reports on Fridays.,general,SPEAKER_02,0,0,0
+So I mean we're going with the new design.,decision,SPEAKER_00,0,0,0
+Can Sarah finish the slides?,deadline_mention,SPEAKER_04,0,0,0
+They always review the wireframes late.,general,SPEAKER_00,0,0,0
+The budget schedule ends on basically EOD.,deadline_mention,SPEAKER_01,0,0,0
+Let's talk about the budget maybe approach.,topic,SPEAKER_00,0,0,0
+We actually need to cover the copy.,topic,SPEAKER_01,0,0,0
+Turning our attention to the basically campaign.,topic,SPEAKER_02,0,0,0
+Can Mike you know deliver the architecture?,action_item,SPEAKER_01,0,0,0
+We're choosing the just code approach.,decision,SPEAKER_02,0,0,0
+We need to cover like the report.,topic,SPEAKER_00,0,0,0
+We are moving forward with the report probably plan.,decision,SPEAKER_03,0,0,0
+Make maybe sure to finish the wireframes before next week.,action_item,SPEAKER_03,0,0,0
+They just always draft the slides late.,general,SPEAKER_03,0,0,0
+We're choosing the actually plan approach.,decision,SPEAKER_03,0,0,0
+Don't forget to deliver the report.,action_item,SPEAKER_03,0,0,0
+Regarding kind of the campaign design.,topic,SPEAKER_03,0,0,0
+I usually finish reports on definitely Fridays.,general,SPEAKER_01,0,0,0
+I don't think we basically need to prepare the architecture.,general,SPEAKER_03,0,0,0
+Let's like discuss our decision on the plan.,topic,SPEAKER_00,0,0,0
+Moving on to kind of the code.,topic,SPEAKER_00,0,0,0
+The target delivery is end of maybe week.,deadline_mention,SPEAKER_00,0,0,0
+Please draft the budget by actually tomorrow.,action_item,SPEAKER_03,0,0,0
+Let's discuss our maybe decision on the copy.,topic,SPEAKER_03,0,0,0
+Our final choice is I mean the budget design.,general,SPEAKER_04,0,0,0
+The decision is to like check the design.,decision,SPEAKER_02,0,0,0
+Cutoff for the plan is tomorrow.,deadline_mention,SPEAKER_01,0,0,0
+The decision is to you know check the code.,action_item,SPEAKER_00,0,0,0
+I don't think we basically need to draft the copy.,general,SPEAKER_04,0,0,0
+Let's discuss our maybe decision on the report.,topic,SPEAKER_01,0,0,0
+It is due end I mean of week.,deadline_mention,SPEAKER_00,0,0,0
+Did David create the code?,general,SPEAKER_02,0,0,0
+I kind of usually verify reports on Fridays.,general,SPEAKER_00,0,0,0
+Did just John create the budget?,general,SPEAKER_04,0,0,0
+The next agenda item is the basically wireframes plan.,topic,SPEAKER_03,0,0,0
+Make sure to deliver the architecture by Friday.,action_item,SPEAKER_03,0,0,0
+We expect the report you know by Thursday.,deadline_mention,SPEAKER_01,0,0,0
+It is due tomorrow.,deadline_mention,SPEAKER_02,0,0,0
+Let's discuss our like decision on the slides.,topic,SPEAKER_03,0,0,0
+Regarding actually the wireframes design.,topic,SPEAKER_01,0,0,0
+Please send the code by tomorrow.,action_item,SPEAKER_02,0,0,0
+I am not probably sure if I can review it.,topic,SPEAKER_01,0,0,0
+"Emma, update the wireframes today.",action_item,SPEAKER_03,0,0,0
+We have decided to like go with the new campaign.,decision,SPEAKER_04,0,0,0
+The like decision is to draft the wireframes.,decision,SPEAKER_04,0,0,0
+The decision is to actually review the budget.,decision,SPEAKER_03,0,0,0
+"David, update the plan today.",deadline_mention,SPEAKER_01,0,0,0
+Moving definitely on to the design.,topic,SPEAKER_01,0,0,0
+Moving on to the like report.,topic,SPEAKER_04,0,0,0
+To deliver the slides takes a lot of time.,decision,SPEAKER_04,0,0,0
+We have decided to go kind of with the new code.,decision,SPEAKER_04,0,0,0
+Cutoff for the report is next probably week.,topic,SPEAKER_01,0,0,0
+Let's discuss like our decision on the slides.,topic,SPEAKER_02,0,0,0
+Make sure to review the budget before like Monday.,action_item,SPEAKER_03,0,0,0
+The decision is to update the campaign.,decision,SPEAKER_03,0,0,0
+The actually report schedule ends on Monday.,deadline_mention,SPEAKER_04,0,0,0
+This definitely must be ready by tomorrow.,deadline_mention,SPEAKER_02,0,0,0
+Turning our attention basically to the report.,topic,SPEAKER_00,0,0,0
+It maybe is due end of week.,deadline_mention,SPEAKER_04,0,0,0
+I am not just sure if I can verify it.,general,SPEAKER_02,0,0,0
+The decision is to maybe send the report.,decision,SPEAKER_04,0,0,0
+The slides probably schedule ends on EOD.,deadline_mention,SPEAKER_03,0,0,0
+The decision is to like prepare the slides.,general,SPEAKER_00,0,0,0
+"Raj, verify you know the architecture today.",deadline_mention,SPEAKER_04,0,0,0
+"Priya, draft probably the code today.",action_item,SPEAKER_00,0,0,0
+The architecture schedule ends kind of on end of week.,deadline_mention,SPEAKER_00,0,0,0
+The target I mean delivery is end of week.,deadline_mention,SPEAKER_03,0,0,0
+We're choosing basically the slides approach.,general,SPEAKER_03,0,0,0
+Did John deliver the report?,action_item,SPEAKER_02,0,0,0
+The copy schedule ends on Friday.,general,SPEAKER_00,0,0,0
+Let's discuss our decision on the actually budget.,topic,SPEAKER_01,0,0,0
+Cutoff for the architecture is definitely Thursday.,deadline_mention,SPEAKER_04,0,0,0
+Don't forget to finish the budget.,action_item,SPEAKER_04,0,0,0
+I am not sure if I can just update it.,decision,SPEAKER_02,0,0,0
+"Sarah, deliver probably the wireframes today.",action_item,SPEAKER_03,0,0,0
+I definitely am not sure if I can prepare it.,general,SPEAKER_04,0,0,0
+This must basically be ready by Monday.,deadline_mention,SPEAKER_03,0,0,0
+We have decided to go actually with the new slides.,decision,SPEAKER_01,0,0,0
+The budget probably schedule ends on Thursday.,topic,SPEAKER_04,0,0,0
+The wireframes schedule ends on Tuesday.,deadline_mention,SPEAKER_03,0,0,0
+Make sure to review the plan before Wednesday.,decision,SPEAKER_03,0,0,0
+The decision is to check the architecture.,decision,SPEAKER_02,0,0,0
+Please prepare the slides by Tuesday.,action_item,SPEAKER_04,0,0,0
+Cutoff for I mean the code is Friday.,deadline_mention,SPEAKER_03,0,0,0
+Let's talk about the like budget approach.,topic,SPEAKER_04,0,0,0
+"Nina, create the campaign today.",action_item,SPEAKER_00,0,0,0
+The target delivery is end of week.,deadline_mention,SPEAKER_04,0,0,0
+The decision is to finish the architecture.,decision,SPEAKER_04,0,0,0
+The basically slides schedule ends on tomorrow.,deadline_mention,SPEAKER_03,0,0,0
+I need you to check this actually slides.,deadline_mention,SPEAKER_01,0,0,0
+Did maybe Sarah update the slides?,general,SPEAKER_04,0,0,0
+I need you I mean to send this wireframes.,general,SPEAKER_01,0,0,0
+"Mike, review definitely the slides today.",action_item,SPEAKER_01,0,0,0
+Turning our attention to probably the plan.,topic,SPEAKER_04,0,0,0
+The just target delivery is EOD.,topic,SPEAKER_02,0,0,0
+I kind of usually check reports on Fridays.,general,SPEAKER_01,0,0,0
+The deadline for the actually slides is next week.,deadline_mention,SPEAKER_01,0,0,0
+They always draft maybe the design late.,deadline_mention,SPEAKER_00,0,0,0
+I usually like deliver reports on Fridays.,general,SPEAKER_01,0,0,0
+Can Sarah create the wireframes?,action_item,SPEAKER_01,0,0,0
+We're I mean choosing the campaign approach.,decision,SPEAKER_02,0,0,0
+The budget schedule ends actually on Thursday.,deadline_mention,SPEAKER_03,0,0,0
+The decision is to update actually the copy.,decision,SPEAKER_03,0,0,0
+Make sure to deliver the report by next week.,deadline_mention,SPEAKER_04,0,0,0
+It's agreed that we will prepare the campaign.,decision,SPEAKER_00,0,0,0
+Let's basically discuss our decision on the report.,topic,SPEAKER_03,0,0,0
+I I mean usually verify reports on Fridays.,general,SPEAKER_03,0,0,0
+The next agenda item is the report maybe plan.,topic,SPEAKER_03,0,0,0
+We need to basically cover the design.,topic,SPEAKER_01,0,0,0
+The deadline for the kind of design is Tuesday.,deadline_mention,SPEAKER_04,0,0,0
+Regarding the wireframes just design.,topic,SPEAKER_01,0,0,0
+We need to cover definitely the slides.,topic,SPEAKER_00,0,0,0
+We need probably to cover the slides.,topic,SPEAKER_04,0,0,0
+We're choosing the probably slides approach.,decision,SPEAKER_04,0,0,0
+Moving on to the budget.,topic,SPEAKER_03,0,0,0
+Regarding the budget design.,topic,SPEAKER_02,0,0,0
+It's agreed that we will draft the code.,decision,SPEAKER_02,0,0,0
+She didn't verify the budget.,general,SPEAKER_04,0,0,0
+Our actually final choice is the code design.,general,SPEAKER_02,0,0,0
+To review the wireframes takes a lot just of time.,general,SPEAKER_03,0,0,0
+I usually definitely deliver reports on Fridays.,general,SPEAKER_04,0,0,0
+The next agenda item is the you know campaign plan.,topic,SPEAKER_00,0,0,0
+We expect the slides I mean by tomorrow.,deadline_mention,SPEAKER_03,0,0,0
+Did Emma review the report?,general,SPEAKER_01,0,0,0
+We're choosing actually the budget approach.,deadline_mention,SPEAKER_01,0,0,0
+Let's talk actually about the report approach.,topic,SPEAKER_04,0,0,0
+Let's discuss our basically decision on the architecture.,topic,SPEAKER_01,0,0,0
+We have decided to go definitely with the new architecture.,decision,SPEAKER_01,0,0,0
+It's agreed that we will review the copy.,decision,SPEAKER_02,0,0,0
+The deadline for the slides is probably EOD.,deadline_mention,SPEAKER_04,0,0,0
+It's agreed that we will actually update the wireframes.,decision,SPEAKER_02,0,0,0
+"If you create the kind of budget, let me know.",general,SPEAKER_03,0,0,0
+Regarding the plan like design.,topic,SPEAKER_02,0,0,0
+They always just send the architecture late.,topic,SPEAKER_01,0,0,0
+Can you know Priya draft the code?,action_item,SPEAKER_00,0,0,0
+The decision is to draft the report.,decision,SPEAKER_02,0,0,0
+Our final choice is the architecture you know design.,decision,SPEAKER_01,0,0,0
+I don't think we need kind of to check the plan.,general,SPEAKER_00,0,0,0
+It's just agreed that we will draft the wireframes.,decision,SPEAKER_00,0,0,0
+We expect the plan by Tuesday.,deadline_mention,SPEAKER_03,0,0,0
+The next agenda maybe item is the campaign plan.,topic,SPEAKER_00,0,0,0
+Our final choice maybe is the campaign design.,decision,SPEAKER_00,0,0,0
+Let's I mean discuss our decision on the wireframes.,topic,SPEAKER_02,0,0,0
+We're basically choosing the budget approach.,decision,SPEAKER_03,0,0,0
+Don't forget to verify the basically budget.,action_item,SPEAKER_00,0,0,0
+The target delivery is basically Tuesday.,deadline_mention,SPEAKER_04,0,0,0
+"Nina, check the architecture today.",action_item,SPEAKER_04,0,0,0
+Make like sure to deliver the budget by Thursday.,action_item,SPEAKER_04,0,0,0
+Can Sarah deliver the wireframes?,action_item,SPEAKER_01,0,0,0
+The main topic today like is the campaign.,topic,SPEAKER_00,0,0,0
+Cutoff you know for the design is Thursday.,deadline_mention,SPEAKER_04,0,0,0
+Did probably Mike prepare the code?,topic,SPEAKER_02,0,0,0
+Moving like on to the campaign.,topic,SPEAKER_04,0,0,0
+Our just final choice is the plan design.,decision,SPEAKER_04,0,0,0
+Did Raj basically create the plan?,general,SPEAKER_02,0,0,0
+The decision is to I mean prepare the budget.,decision,SPEAKER_04,0,0,0
+Don't definitely forget to finish the code.,action_item,SPEAKER_00,0,0,0
+"Nina, review maybe the campaign today.",action_item,SPEAKER_04,0,0,0
+We are moving forward with just the plan plan.,decision,SPEAKER_03,0,0,0
+"If you deliver the copy, actually let me know.",general,SPEAKER_03,0,0,0
+We are moving actually forward with the copy plan.,decision,SPEAKER_03,0,0,0
+Our final choice is the probably report design.,decision,SPEAKER_03,0,0,0
+The next agenda item basically is the report plan.,topic,SPEAKER_01,0,0,0
+The kind of target delivery is Friday.,deadline_mention,SPEAKER_02,0,0,0
+Could you please forward probably that wireframes to Sarah?,action_item,SPEAKER_03,0,0,0
+Turning our attention to probably the report.,topic,SPEAKER_02,0,0,0
+Turning our attention to the code.,topic,SPEAKER_03,0,0,0
+Don't forget to deliver the actually budget.,action_item,SPEAKER_03,0,0,0
+Can John prepare maybe the campaign?,action_item,SPEAKER_03,0,0,0
+Regarding the campaign design.,deadline_mention,SPEAKER_04,0,0,0
+We maybe are moving forward with the slides plan.,decision,SPEAKER_02,0,0,0
+Cutoff for the report is tomorrow.,deadline_mention,SPEAKER_01,0,0,0

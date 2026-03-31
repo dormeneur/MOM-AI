@@ -1,0 +1,7 @@
+Loading test data...
+
+Model        Accuracy   Precision   Recall     F1 (Macro)
+-----------  ---------  ----------  ---------  ----------
+Perceptron   0.40       0.24        0.40       0.27      
+KNN (k=5)    1.00       1.00        1.00       1.00      
+MLP          1.00       1.00        1.00       1.00      

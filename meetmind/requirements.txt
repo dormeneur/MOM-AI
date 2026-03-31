@@ -1,0 +1,41 @@
+# API
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+python-multipart==0.0.9
+sqlalchemy==2.0.30
+aiofiles==23.2.1
+pydantic==2.7.1
+
+# Bot
+playwright==1.44.0
+playwright-stealth==1.0.6
+
+# Audio
+ffmpeg-python==0.2.0
+
+# ML — STT
+faster-whisper==1.0.1
+
+# ML — Diarization
+pyannote.audio==3.1.1
+torch>=2.0.0
+
+# ML — Classifiers
+scikit-learn==1.5.0
+numpy==1.26.4
+scipy==1.13.0
+joblib==1.4.2
+
+# ML — NLP
+transformers==4.41.1
+tokenizers==0.19.1
+
+# Utilities
+python-dotenv==1.0.1
+httpx==0.27.0
+
+# Experiments
+jupyter==1.0.0
+matplotlib==3.9.0
+seaborn==0.13.2
+pandas==2.2.2
