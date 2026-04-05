@@ -1,0 +1,32 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# ML Models (generated)
+ml/classifier/models/*.pkl
+ml/classifier/plots/*.png
+
+# Database
+*.db
+
+# Audio chunks
+audio_chunks/
+audio_uploads/
+
+# Node
+dashboard/node_modules/
+dashboard/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

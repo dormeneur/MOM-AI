@@ -1,0 +1,130 @@
+{
+  "meeting": {
+    "title": "MeetMind Capstone — Sprint Review & Task Planning",
+    "date": "2026-04-02"
+  },
+  "participants": [
+    {
+      "display_name": "Aditya Bharti",
+      "email": "work.adityabharti@gmail.com",
+      "speaker_label": "SPEAKER_00"
+    },
+    {
+      "display_name": "Aditya K",
+      "email": "adityabharti1214@gmail.com",
+      "speaker_label": "SPEAKER_01"
+    },
+    {
+      "display_name": "Aditya S",
+      "email": "adityabharti2468@gmail.com",
+      "speaker_label": "SPEAKER_02"
+    },
+    {
+      "display_name": "Aditya VIT",
+      "email": "aditya.bharti2023@vitstudent.ac.in",
+      "speaker_label": "SPEAKER_03"
+    }
+  ],
+  "transcript": [
+    {
+      "speaker": "Aditya Bharti",
+      "text": "Hey everyone, thanks for joining. Let's go through what we have for the MeetMind project and plan the next steps."
+    },
+    {
+      "speaker": "Aditya K",
+      "text": "Sure. I've been working on the ML classifier pipeline. The Perceptron, KNN, and MLP models are all trained and the F1 scores follow the expected progression."
+    },
+    {
+      "speaker": "Aditya Bharti",
+      "text": "That's great. So the MLP is the primary production model, right?"
+    },
+    {
+      "speaker": "Aditya K",
+      "text": "Yes, it uses a two-layer architecture with 256 and 128 neurons. We're getting around 85 percent accuracy on the test set."
+    },
+    {
+      "speaker": "Aditya Bharti",
+      "text": "Let's discuss the NER module next. Where are we with the task extraction?"
+    },
+    {
+      "speaker": "Aditya S",
+      "text": "The BERT NER component is working. It detects person names for assignee resolution and picks up deadline keywords like Friday, Monday, next week."
+    },
+    {
+      "speaker": "Aditya S",
+      "text": "But I noticed the confidence scores are a bit low when there's no explicit name mentioned. We should add better fallback rules."
+    },
+    {
+      "speaker": "Aditya Bharti",
+      "text": "We have decided to keep a four-rule fallback system for assignee detection. First check NER entities, then self-assignment with I will patterns, then team assignment, and finally mark as unassigned."
+    },
+    {
+      "speaker": "Aditya VIT",
+      "text": "On the summarisation side, the BART model is generating decent summaries. I tested it with a 2000-word transcript and it condensed it to about 150 words."
+    },
+    {
+      "speaker": "Aditya Bharti",
+      "text": "Nice. What about the chunking for longer transcripts?"
+    },
+    {
+      "speaker": "Aditya VIT",
+      "text": "I implemented a two-pass system. First pass chunks the transcript into 1024-token segments, summarises each, then the second pass merges and summarises again."
+    },
+    {
+      "speaker": "Aditya Bharti",
+      "text": "We've decided to use distilbart-cnn-12-6 instead of the full BART model because it's 40 percent faster on CPU with minimal quality loss."
+    },
+    {
+      "speaker": "Aditya K",
+      "text": "Makes sense. For the demo, should I also add the model evaluation comparison chart to the Jupyter notebook?"
+    },
+    {
+      "speaker": "Aditya Bharti",
+      "text": "Yes. Aditya K, please add the confusion matrix and F1 comparison plots to the experiments notebook by tomorrow."
+    },
+    {
+      "speaker": "Aditya S",
+      "text": "I will update the NER extraction logic to handle edge cases like multiple names in a single sentence by Friday."
+    },
+    {
+      "speaker": "Aditya Bharti",
+      "text": "Aditya VIT, can you write the project documentation covering the ML pipeline architecture? We need it for the final submission."
+    },
+    {
+      "speaker": "Aditya VIT",
+      "text": "Sure, I will complete the documentation and include the system architecture diagram by next Monday."
+    },
+    {
+      "speaker": "Aditya Bharti",
+      "text": "The presentation to our professor is scheduled for next Wednesday so everything needs to be ready before that."
+    },
+    {
+      "speaker": "Aditya K",
+      "text": "Should we also prepare a live demo or just the slides?"
+    },
+    {
+      "speaker": "Aditya Bharti",
+      "text": "We've decided to do both. We'll show the live terminal demo first and then walk through the architecture slides."
+    },
+    {
+      "speaker": "Aditya S",
+      "text": "I think we also need to add proper error handling in the API endpoints before the demo."
+    },
+    {
+      "speaker": "Aditya Bharti",
+      "text": "Good point. Aditya S, please review all the API error responses and add proper HTTP status codes by Thursday."
+    },
+    {
+      "speaker": "Aditya VIT",
+      "text": "We should also test the email sending functionality before the presentation."
+    },
+    {
+      "speaker": "Aditya Bharti",
+      "text": "I will configure the SMTP settings and run a test email to all team members by tonight."
+    },
+    {
+      "speaker": "Aditya Bharti",
+      "text": "Alright, everyone knows their tasks. Let's sync again tomorrow evening to check progress. Good meeting everyone."
+    }
+  ]
+}

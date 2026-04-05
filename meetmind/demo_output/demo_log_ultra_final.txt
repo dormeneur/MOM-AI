@@ -1,0 +1,251 @@
+
+========================================================================
+[1m[95m  MeetMind -- ML Pipeline Demonstration[0m
+========================================================================
+
+  Meeting:      MeetMind Capstone ΓÇö Sprint Review & Task Planning
+  Date:         2026-04-02
+  Participants: Aditya Bharti, Aditya K, Aditya S, Aditya VIT
+  Sentences:    25
+  Config file:  demo_config.json (editable)
+
+========================================================================
+[1m[95m  STEP 1 -- Feature Engineering (TF-IDF + Handcrafted)[0m
+========================================================================
+
+  Extracting 517-dimensional feature vectors...
+    [0-511]  TF-IDF unigram+bigram features
+    [512]    has_modal_verb (will/shall/should/must)
+    [513]    has_person_name (Title Case token)
+    [514]    is_imperative (starts with verb)
+    [515]    has_deadline_word (monday/friday/by/before)
+    [516]    sentence_length (normalised)
+
+  Feature matrix: (25, 517)  (25 sentences x 517 features)
+
+[1m  -- Sample Features --[0m
+
+  "Hey everyone, thanks for joining. Let's go through what we h..."
+     modal=0 name=1 imperative=0 deadline=0 len=0.40
+
+  "The BERT NER component is working. It detects person names f..."
+     modal=0 name=1 imperative=0 deadline=1 len=0.46
+
+  "Yes. Aditya K, please add the confusion matrix and F1 compar..."
+     modal=0 name=1 imperative=0 deadline=1 len=0.36
+
+  "The presentation to our professor is scheduled for next Wedn..."
+     modal=0 name=1 imperative=0 deadline=1 len=0.36
+
+
+========================================================================
+[1m[95m  STEP 2 -- Sentence Classification (3 Models)[0m
+========================================================================
+
+  Loading models...
+  Perceptron  : binary (action_item vs rest)
+  KNN (k=5)   : 5-class, instance-based
+  MLP 256-128 : 5-class, neural network [PRIMARY]
+
+[1m  -- Classification Results --[0m
+
+  +-----------------------------------------------+------------+----------------+----------------+------+
+  | [1mSentence                                     [0m | [1mPerceptron[0m | [1mKNN (k=5)     [0m | [1mMLP [Primary] [0m | [1mConf[0m |
+  +-----------------------------------------------+------------+----------------+----------------+------+
+  | Hey everyone, thanks for joining. Let's go... | not_action | topic          | topic          | 28%  |
+  | Sure. I've been working on the ML classifi... | not_action | topic          | topic          | 37%  |
+  | That's great. So the MLP is the primary pr... | not_action | decision       | decision       | 39%  |
+  | Yes, it uses a two-layer architecture with... | not_action | decision       | decision       | 73%  |
+  | Let's discuss the NER module next. Where a... | not_action | decision       | topic          | 44%  |
+  | The BERT NER component is working. It dete... | not_action | deadline_menti | deadline_menti | 91%  |
+  | But I noticed the confidence scores are a ... | not_action | topic          | decision       | 62%  |
+  | We have decided to keep a four-rule fallba... | not_action | decision       | decision       | 71%  |
+  | On the summarisation side, the BART model ... | not_action | topic          | topic          | 38%  |
+  | Nice. What about the chunking for longer t... | not_action | decision       | topic          | 37%  |
+  | I implemented a two-pass system. First pas... | not_action | decision       | general        | 40%  |
+  | We've decided to use distilbart-cnn-12-6 i... | not_action | decision       | decision       | 64%  |
+  | Makes sense. For the demo, should I also a... | not_action | topic          | topic          | 42%  |
+  | Yes. Aditya K, please add the confusion ma... | not_action | deadline_menti | action_item    | 46%  |
+  | I will update the NER extraction logic to ... | not_action | deadline_menti | deadline_menti | 54%  |
+  | Aditya VIT, can you write the project docu... | not_action | action_item    | general        | 45%  |
+  | Sure, I will complete the documentation an... | not_action | deadline_menti | deadline_menti | 51%  |
+  | The presentation to our professor is sched... | not_action | deadline_menti | deadline_menti | 81%  |
+  | Should we also prepare a live demo or just... | not_action | topic          | decision       | 35%  |
+  | We've decided to do both. We'll show the l... | not_action | decision       | decision       | 56%  |
+  | I think we also need to add proper error h... | not_action | deadline_menti | general        | 39%  |
+  | Good point. Aditya S, please review all th... | not_action | deadline_menti | action_item    | 51%  |
+  | We should also test the email sending func... | not_action | deadline_menti | deadline_menti | 31%  |
+  | I will configure the SMTP settings and run... | not_action | deadline_menti | deadline_menti | 37%  |
+  | Alright, everyone knows their tasks. Let's... | not_action | deadline_menti | action_item    | 55%  |
+  +-----------------------------------------------+------------+----------------+----------------+------+
+
+[1m  -- Counts --[0m
+
+  [91m[ACTION]      [0m  3
+  [94m[DECISION]    [0m  7
+  [96m[TOPIC]       [0m  6
+  [93m[DEADLINE]    [0m  6
+  [2m[GENERAL]     [0m  3
+
+========================================================================
+[1m[95m  STEP 3 -- Task Extraction (BERT NER)[0m
+========================================================================
+
+  Model: dslim/bert-base-NER (Transfer Learning)
+  Concept: BERT pre-trained on BookCorpus + Wikipedia,
+           fine-tuned on CoNLL-2003 NER dataset
+  Extracts: PERSON (assignee), DATE/TIME (deadline), ACTION VERB
+
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|##########| 199/199 [00:00<00:00, 9600.60it/s]
+BertForTokenClassification LOAD REPORT from: dslim/bert-base-NER
+Key                      | Status     |  | 
+-------------------------+------------+--+-
+bert.pooler.dense.weight | UNEXPECTED |  | 
+bert.pooler.dense.bias   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Failed to load summarisation pipeline: "Unknown task summarization, available tasks are ['any-to-any', 'audio-classification', 'automatic-speech-recognition', 'depth-estimation', 'document-question-answering', 'feature-extraction', 'fill-mask', 'image-classification', 'image-feature-extraction', 'image-segmentation', 'image-text-to-text', 'keypoint-matching', 'mask-generation', 'ner', 'object-detection', 'sentiment-analysis', 'table-question-answering', 'text-classification', 'text-generation', 'text-to-audio', 'text-to-speech', 'token-classification', 'video-classification', 'zero-shot-audio-classification', 'zero-shot-classification', 'zero-shot-image-classification', 'zero-shot-object-detection']"
+Summarisation failed: "Unknown task summarization, available tasks are ['any-to-any', 'audio-classification', 'automatic-speech-recognition', 'depth-estimation', 'document-question-answering', 'feature-extraction', 'fill-mask', 'image-classification', 'image-feature-extraction', 'image-segmentation', 'image-text-to-text', 'keypoint-matching', 'mask-generation', 'ner', 'object-detection', 'sentiment-analysis', 'table-question-answering', 'text-classification', 'text-generation', 'text-to-audio', 'text-to-speech', 'token-classification', 'video-classification', 'zero-shot-audio-classification', 'zero-shot-classification', 'zero-shot-image-classification', 'zero-shot-object-detection']"
+
+[1m  -- Extracted Tasks (9) --[0m
+
+  [93mTask 1[0m: [DEADLINE]
+     "The BERT NER component is working. It detects person names for assigne"
+     Assignee:   Unassigned
+     Deadline:   NE
+     Verb:       N/A
+     Confidence: 30%
+
+  [91mTask 2[0m: [ACTION]
+     "Yes. Aditya K, please add the confusion matrix and F1 comparison plots"
+     Assignee:   Ad
+     Deadline:   F1
+     Verb:       N/A
+     Confidence: 100%
+
+  [93mTask 3[0m: [DEADLINE]
+     "I will update the NER extraction logic to handle edge cases like multi"
+     Assignee:   Aditya S
+     Deadline:   NE
+     Verb:       update
+     Confidence: 70%
+
+  [93mTask 4[0m: [DEADLINE]
+     "Sure, I will complete the documentation and include the system archite"
+     Assignee:   Unassigned
+     Deadline:   by next
+     Verb:       complete
+     Confidence: 30%
+
+  [93mTask 5[0m: [DEADLINE]
+     "The presentation to our professor is scheduled for next Wednesday so e"
+     Assignee:   Unassigned
+     Deadline:   Wednesday
+     Verb:       N/A
+     Confidence: 30%
+
+  [91mTask 6[0m: [ACTION]
+     "Good point. Aditya S, please review all the API error responses and ad"
+     Assignee:   Ad
+     Deadline:   H
+     Verb:       review
+     Confidence: 96%
+
+  [93mTask 7[0m: [DEADLINE]
+     "We should also test the email sending functionality before the present"
+     Assignee:   Team
+     Deadline:   before the
+     Verb:       test
+     Confidence: 60%
+
+  [93mTask 8[0m: [DEADLINE]
+     "I will configure the SMTP settings and run a test email to all team me"
+     Assignee:   Aditya Bharti
+     Deadline:   SMTP
+     Verb:       test
+     Confidence: 70%
+
+  [91mTask 9[0m: [ACTION]
+     "Alright, everyone knows their tasks. Let's sync again tomorrow evening"
+     Assignee:   Team
+     Deadline:   tomorrow
+     Verb:       check
+     Confidence: 60%
+
+
+========================================================================
+[1m[95m  STEP 4 -- Abstractive Summarisation (BART)[0m
+========================================================================
+
+  Model: sshleifer/distilbart-cnn-12-6 (Seq2Seq)
+  Encoder reads full transcript, Decoder generates summary.
+  Beam search (k=4) for optimal decoding.
+
+  Generating... (10-20 sec on CPU)
+
+  Summary:
+     Aditya Bharti: Hey everyone, thanks for joining. Let's go
+     through what we have for the MeetMind project and plan the next
+     steps. Aditya K: Sure.
+
+========================================================================
+[1m[95m  STEP 5 -- Minutes of Meeting (MOM) Generation[0m
+========================================================================
+
+  Saved: demo_output/mom_global.html
+  Saved: demo_output/mom_aditya_bharti.html  (2 tasks for Aditya Bharti)
+  Saved: demo_output/mom_aditya_k.html  (2 tasks for Aditya K)
+  Saved: demo_output/mom_aditya_s.html  (2 tasks for Aditya S)
+  Saved: demo_output/mom_aditya_vit.html  (2 tasks for Aditya VIT)
+
+  Open demo_output/mom_global.html in your browser to preview.
+
+========================================================================
+[1m[95m  STEP 6 -- Email Dispatch[0m
+========================================================================
+
+  Sending from: adityabharti1214@gmail.com
+
+  [92mSENT[0m  work.adityabharti@gmail.com  (2 tasks)
+  [92mSENT[0m  adityabharti1214@gmail.com  (2 tasks)
+  [92mSENT[0m  adityabharti2468@gmail.com  (2 tasks)
+  [92mSENT[0m  aditya.bharti2023@vitstudent.ac.in  (2 tasks)
+  [92mSENT[0m  work.adityabharti@gmail.com  (Global MOM)
+
+  [92mAll emails dispatched![0m
+
+========================================================================
+[1m[95m  Pipeline Summary[0m
+========================================================================
+
+  Sentences classified:   25
+  Action items:           3
+  Decisions:              7
+  Topics:                 6
+  Deadlines:              6
+  Tasks extracted (NER):  9
+  MOMs generated:         5
+  Emails sent:            Yes
+
+
+[1m  -- ML Concepts Used --[0m
+
+  +-------------------+---------------------+----------------------------+
+  | [1mConcept          [0m | [1mWhere              [0m | [1mPurpose                   [0m |
+  +-------------------+---------------------+----------------------------+
+  | Perceptron        | perceptron_model.py | Binary baseline classifier |
+  | KNN (k=5)         | knn_model.py        | Instance-based 5-class     |
+  | MLP (Backprop)    | mlp_model.py        | Primary neural classifier  |
+  | TF-IDF            | features.py         | Text to numeric vectors    |
+  | Transfer Learning | task_extractor.py   | BERT NER (pre-trained)     |
+  | Seq2Seq + Beam    | summariser.py       | BART summarisation         |
+  | Softmax           | mlp_model.py        | Probability distribution   |
+  +-------------------+---------------------+----------------------------+
+
+  ========================================================================
+  [92m[1m  Demo complete![0m
+  ========================================================================
+
