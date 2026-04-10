@@ -18,27 +18,26 @@ export default function ParticipantMap({ participants, onUpdateEmail }) {
   }
 
   return (
-    <div className="bg-black/30 backdrop-blur-sm rounded-2xl border border-purple-900/20 overflow-hidden">
-      <div className="px-5 py-4 border-b border-purple-900/20 flex items-center gap-2">
-        <span className="text-base">👥</span>
-        <h2 className="text-sm font-semibold text-purple-200 uppercase tracking-wider">Participants</h2>
+    <div className="bg-white rounded-sm border border-gray-300 overflow-hidden font-mono text-gray-800">
+      <div className="px-5 py-4 border-b border-gray-300 flex items-center gap-2 bg-gray-50">
+        <h2 className="text-sm font-bold uppercase tracking-widest text-gray-700">Participants</h2>
       </div>
 
       <div className="p-4 space-y-2">
         {participants.length === 0 && (
-          <p className="text-gray-600 text-sm text-center py-4">No participants detected yet</p>
+          <p className="text-gray-500 text-sm text-center py-4 uppercase font-bold">No participants detected yet</p>
         )}
 
         {participants.map((p) => (
-          <div key={p.id} className="flex items-center gap-3 bg-white/5 rounded-lg px-3 py-2.5 hover:bg-white/8 transition-colors">
-            <div className="w-8 h-8 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white text-xs font-bold flex-shrink-0">
+          <div key={p.id} className="flex items-center gap-3 bg-white border border-gray-200 rounded-sm px-3 py-2.5">
+            <div className="w-8 h-8 flex items-center justify-center text-white bg-gray-600 rounded-full text-xs font-bold flex-shrink-0 uppercase">
               {p.display_name?.charAt(0)?.toUpperCase() || '?'}
             </div>
 
             <div className="flex-1 min-w-0">
-              <p className="text-sm text-gray-200 font-medium truncate">{p.display_name}</p>
+              <p className="text-sm text-gray-800 font-bold uppercase truncate">{p.display_name}</p>
               {p.speaker_label && (
-                <p className="text-[10px] text-gray-500">{p.speaker_label}</p>
+                <p className="text-[10px] text-gray-500 uppercase border border-gray-200 inline-block rounded-sm px-1.5 mt-1">{p.speaker_label}</p>
               )}
             </div>
 
@@ -49,34 +48,34 @@ export default function ParticipantMap({ participants, onUpdateEmail }) {
                   value={emailInput}
                   onChange={(e) => setEmailInput(e.target.value)}
                   onKeyDown={(e) => e.key === 'Enter' && saveEmail(p.id)}
-                  className="w-40 px-2 py-1 text-xs rounded bg-black/40 border border-purple-700/30 text-gray-200 focus:outline-none focus:border-purple-500"
+                  className="w-40 px-2 py-1 text-xs rounded-sm bg-white border border-gray-300 text-gray-800 focus:outline-none focus:border-gray-500"
                   placeholder="email@example.com"
                   autoFocus
                 />
                 <button
                   onClick={() => saveEmail(p.id)}
-                  className="text-xs text-emerald-400 hover:text-emerald-300 px-1"
+                  className="text-xs text-gray-700 border border-gray-300 rounded-sm px-2 py-1 hover:bg-gray-100 font-bold"
                 >
-                  ✓
+                  SAVE
                 </button>
                 <button
                   onClick={() => setEditing(null)}
-                  className="text-xs text-gray-500 hover:text-gray-400 px-1"
+                  className="text-xs text-gray-700 border border-gray-300 rounded-sm px-2 py-1 hover:bg-gray-100 font-bold"
                 >
-                  ✕
+                  CANCEL
                 </button>
               </div>
             ) : (
-              <div className="flex items-center gap-1">
+              <div className="flex items-center gap-2">
                 <span className="text-xs text-gray-500 truncate max-w-[120px]">
                   {p.email || 'No email'}
                 </span>
                 <button
                   onClick={() => startEdit(p)}
-                  className="text-gray-600 hover:text-purple-400 transition-colors text-xs px-1"
+                  className="text-gray-700 border border-gray-300 rounded-sm px-2 py-0.5 text-xs font-bold hover:bg-gray-100 transition-colors"
                   title="Edit email"
                 >
-                  ✏️
+                  EDIT
                 </button>
               </div>
             )}

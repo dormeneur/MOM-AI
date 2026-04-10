@@ -4,6 +4,7 @@ import TranscriptPanel from './components/TranscriptPanel'
 import ActionItemsPanel from './components/ActionItemsPanel'
 import ParticipantMap from './components/ParticipantMap'
 import MeetingControls from './components/MeetingControls'
+import SummaryModal from './components/SummaryModal'
 
 const API = ''  // Uses Vite proxy (see vite.config.js)
 
@@ -12,6 +13,7 @@ export default function App() {
   const [status, setStatus] = useState('idle')     // idle | active | processing | complete
   const [participants, setParticipants] = useState([])
   const [elapsed, setElapsed] = useState(0)
+  const [showSummary, setShowSummary] = useState(false)
   const timerRef = useRef(null)
 
   const { segments, actionItems } = useWebSocket(sessionId)
@@ -80,7 +82,10 @@ export default function App() {
     try {
       setStatus('processing')
       const res = await fetch(`${API}/api/sessions/${sessionId}/finalize`, { method: 'POST' })
-      if (res.ok) setStatus('complete')
+      if (res.ok) {
+        setStatus('complete')
+        setShowSummary(true)
+      }
     } catch (e) {
       console.error('Finalize failed:', e)
     }
@@ -94,6 +99,9 @@ export default function App() {
       setSessionId(data.session_id)
       setStatus('active')
       setElapsed(0)
+
+      // Auto-finalize demo when it ends (rough estimate or just let user click Finalize)
+      // Actually, demo has a set length or user can stop. We leave it as is.
     } catch (e) {
       console.error('Demo failed:', e)
       setStatus('idle')
@@ -117,32 +125,32 @@ export default function App() {
   }
 
   const statusColors = {
-    idle: 'bg-gray-600',
-    active: 'bg-emerald-500',
-    processing: 'bg-amber-500',
-    complete: 'bg-blue-500',
+    idle: 'text-gray-700 border border-gray-400',
+    active: 'text-gray-800 border border-gray-800 font-bold',
+    processing: 'text-gray-500 border border-gray-300',
+    complete: 'text-gray-700 border border-gray-400',
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#0f0a1a] via-[#1a1030] to-[#0f0a1a]">
+    <div className="min-h-screen bg-[#fafaf9] text-gray-800 font-mono relative">
       {/* Header */}
-      <header className="border-b border-purple-900/30 backdrop-blur-sm bg-black/20">
+      <header className="border-b border-gray-300 bg-white">
         <div className="max-w-screen-2xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white font-bold text-lg shadow-lg shadow-purple-500/20">
+            <div className="w-10 h-10 border-2 border-gray-800 flex items-center justify-center text-gray-800 font-bold text-lg rounded-sm">
               M
             </div>
-            <h1 className="text-xl font-bold bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent">
+            <h1 className="text-xl font-bold tracking-widest uppercase text-gray-800">
               MeetMind
             </h1>
           </div>
           <div className="flex items-center gap-4">
-            <span className={`px-3 py-1 rounded-full text-xs font-medium text-white ${statusColors[status]} shadow-sm`}>
-              {status.charAt(0).toUpperCase() + status.slice(1)}
+            <span className={`px-3 py-1 text-xs uppercase tracking-wider rounded-sm ${statusColors[status]}`}>
+              {status}
             </span>
             {status === 'active' && (
-              <span className="text-sm text-purple-300 font-mono">
-                ⏱ {formatTime(elapsed)}
+              <span className="text-sm font-mono border border-gray-400 px-2 py-1 rounded-sm text-gray-700 bg-gray-50">
+                {formatTime(elapsed)}
               </span>
             )}
           </div>
@@ -176,6 +184,11 @@ export default function App() {
           </div>
         </div>
       </main>
+
+      {/* Summary Modal */}
+      {showSummary && (
+        <SummaryModal onClose={() => setShowSummary(false)} />
+      )}
     </div>
   )
 }
